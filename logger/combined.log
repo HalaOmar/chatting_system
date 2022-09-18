@@ -1,0 +1,1272 @@
+{"level":"error","time":1652729767142,"pid":17984,"hostname":"LAPTOP-QS2LTO8J","msg":"ok"}
+{"level":"error","time":1652729794548,"pid":24028,"hostname":"LAPTOP-QS2LTO8J","msg":"ok"}
+{"level":"alert","time":1652771425871,"pid":13752,"hostname":"LAPTOP-QS2LTO8J","msg":"The server is listening at port 3000"}
+{"level":"alert","time":1652772138861,"pid":19972,"hostname":"LAPTOP-QS2LTO8J","msg":"The server is listening at port 3000"}
+{"level":"alert","time":1652772311932,"pid":26764,"hostname":"LAPTOP-QS2LTO8J","msg":"The server is listening at port 3000"}
+{"level":"alert","time":1652772512088,"pid":5740,"hostname":"LAPTOP-QS2LTO8J","msg":"The server is listening at port 3000"}
+{"level":"alert","time":1652772604697,"pid":22408,"hostname":"LAPTOP-QS2LTO8J","msg":"The server is listening at port 3000"}
+{"level":"alert","time":1652772680034,"pid":11768,"hostname":"LAPTOP-QS2LTO8J","msg":"The server is listening at port 3000"}
+{"level":"error","time":1652772680119,"pid":11768,"hostname":"LAPTOP-QS2LTO8J","err":{"type":"MongoServerError","message":"Authentication failed.","stack":"MongoServerError: Authentication failed.\n    at Connection.onMessage (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\connection.js:203:30)\n    at MessageStream.<anonymous> (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\connection.js:63:60)\n    at MessageStream.emit (node:events:520:28)\n    at MessageStream.emit (node:domain:475:12)\n    at processIncomingData (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:108:16)\n    at MessageStream._write (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:28:9)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at Socket.ondata (node:internal/streams/readable:754:22)","ok":0,"code":18,"codeName":"AuthenticationFailed"},"msg":"Authentication failed."}
+{"level":"alert","time":1652772729381,"pid":26072,"hostname":"LAPTOP-QS2LTO8J","msg":"The server is listening at port 3000"}
+{"level":"error","time":1652772729470,"pid":26072,"hostname":"LAPTOP-QS2LTO8J","err":{"type":"MongoServerError","message":"Authentication failed.","stack":"MongoServerError: Authentication failed.\n    at Connection.onMessage (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\connection.js:203:30)\n    at MessageStream.<anonymous> (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\connection.js:63:60)\n    at MessageStream.emit (node:events:520:28)\n    at MessageStream.emit (node:domain:475:12)\n    at processIncomingData (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:108:16)\n    at MessageStream._write (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:28:9)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at Socket.ondata (node:internal/streams/readable:754:22)","ok":0,"code":18,"codeName":"AuthenticationFailed"},"msg":"Authentication failed."}
+{"level":"alert","time":1652772753848,"pid":19932,"hostname":"LAPTOP-QS2LTO8J","msg":"The server is listening at port 3000"}
+{"level":"error","time":1652772753900,"pid":19932,"hostname":"LAPTOP-QS2LTO8J","err":{"type":"MongoServerError","message":"Authentication failed.","stack":"MongoServerError: Authentication failed.\n    at Connection.onMessage (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\connection.js:203:30)\n    at MessageStream.<anonymous> (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\connection.js:63:60)\n    at MessageStream.emit (node:events:520:28)\n    at MessageStream.emit (node:domain:475:12)\n    at processIncomingData (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:108:16)\n    at MessageStream._write (C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:28:9)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at Socket.ondata (node:internal/streams/readable:754:22)","ok":0,"code":18,"codeName":"AuthenticationFailed"},"msg":"Authentication failed."}
+[1652772881195] [37mUSERLVL[39m (5176 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652772881282] [31mERROR[39m (5176 on LAPTOP-QS2LTO8J): [36mAuthentication failed.[39m
+    err: {
+      "type": "MongoServerError",
+      "message": "Authentication failed.",
+      "stack":
+          MongoServerError: Authentication failed.
+              at Connection.onMessage (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\mongodb\lib\cmap\connection.js:203:30)
+              at MessageStream.<anonymous> (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\mongodb\lib\cmap\connection.js:63:60)
+              at MessageStream.emit (node:events:520:28)
+              at MessageStream.emit (node:domain:475:12)
+              at processIncomingData (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+              at MessageStream._write (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+              at writeOrBuffer (node:internal/streams/writable:389:12)
+              at _write (node:internal/streams/writable:330:10)
+              at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+              at Socket.ondata (node:internal/streams/readable:754:22)
+      "ok": 0,
+      "code": 18,
+      "codeName": "AuthenticationFailed"
+    }
+[1652773071413] [37mUSERLVL[39m (7000 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652773071479] [31mERROR[39m (7000 on LAPTOP-QS2LTO8J): [36mAuthentication failed.[39m
+    err: {
+      "type": "MongoServerError",
+      "message": "Authentication failed.",
+      "stack":
+          MongoServerError: Authentication failed.
+              at Connection.onMessage (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\mongodb\lib\cmap\connection.js:203:30)
+              at MessageStream.<anonymous> (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\mongodb\lib\cmap\connection.js:63:60)
+              at MessageStream.emit (node:events:520:28)
+              at MessageStream.emit (node:domain:475:12)
+              at processIncomingData (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+              at MessageStream._write (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+              at writeOrBuffer (node:internal/streams/writable:389:12)
+              at _write (node:internal/streams/writable:330:10)
+              at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+              at Socket.ondata (node:internal/streams/readable:754:22)
+      "ok": 0,
+      "code": 18,
+      "codeName": "AuthenticationFailed"
+    }
+[1652773114768] [37mUSERLVL[39m (21860 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652774781063] [37mUSERLVL[39m (25128 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652775051443] [37mUSERLVL[39m (19540 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652775135237] [37mUSERLVL[39m (26208 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652775154767] [37mUSERLVL[39m (24020 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652775233827] [37mUSERLVL[39m (12760 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652775254919] [37mUSERLVL[39m (12136 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652775490918] [37mUSERLVL[39m (25052 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652776219749] [37mUSERLVL[39m (26128 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652776332094] [37mUSERLVL[39m (25012 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652776354786] [37mUSERLVL[39m (27596 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652776594036] [37mUSERLVL[39m (15852 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652776639131] [37mUSERLVL[39m (22156 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652776662401] [37mUSERLVL[39m (16800 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652776716310] [37mUSERLVL[39m (23164 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777114734] [37mUSERLVL[39m (19316 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777119189] [37mUSERLVL[39m (14200 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777190686] [37mUSERLVL[39m (21612 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777240709] [37mUSERLVL[39m (27600 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777307698] [37mUSERLVL[39m (19772 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777407095] [37mUSERLVL[39m (22660 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777436916] [37mUSERLVL[39m (13740 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777801802] [37mUSERLVL[39m (8944 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652777926864] [37mUSERLVL[39m (17952 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652778040723] [37mUSERLVL[39m (12436 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652778124867] [37mUSERLVL[39m (11464 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652778197101] [37mUSERLVL[39m (26256 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652778295979] [37mUSERLVL[39m (8708 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652778470789] [37mUSERLVL[39m (13952 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652778604862] [37mUSERLVL[39m (12172 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652778698540] [37mUSERLVL[39m (2596 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652778865180] [37mUSERLVL[39m (8116 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779027588] [37mUSERLVL[39m (1816 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779068335] [37mUSERLVL[39m (21956 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779170958] [37mUSERLVL[39m (9356 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779190874] [37mUSERLVL[39m (16020 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779281680] [37mUSERLVL[39m (9736 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779316246] [37mUSERLVL[39m (10492 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779386729] [37mUSERLVL[39m (3872 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779469600] [37mUSERLVL[39m (26352 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779517869] [37mUSERLVL[39m (2752 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779558505] [37mUSERLVL[39m (27212 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779576551] [37mUSERLVL[39m (27444 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779588124] [37mUSERLVL[39m (25972 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779607862] [37mUSERLVL[39m (11248 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779640660] [37mUSERLVL[39m (27516 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779646961] [37mUSERLVL[39m (15964 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779699011] [37mUSERLVL[39m (2388 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779772786] [37mUSERLVL[39m (4108 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652779987705] [37mUSERLVL[39m (24092 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652780191057] [37mUSERLVL[39m (10012 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652780209035] [37mUSERLVL[39m (18736 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652780263330] [37mUSERLVL[39m (18024 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652780364857] [37mUSERLVL[39m (23404 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652780419770] [37mUSERLVL[39m (18124 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652944774499] [37mUSERLVL[39m (16380 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652944788643] [37mUSERLVL[39m (10248 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652946375391] [37mUSERLVL[39m (28620 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652946573921] [37mUSERLVL[39m (2180 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652970695389] [37mUSERLVL[39m (944 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652970719849] [37mUSERLVL[39m (19500 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652970778731] [37mUSERLVL[39m (15680 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652970846694] [37mUSERLVL[39m (23276 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652970901918] [37mUSERLVL[39m (23400 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652970991615] [37mUSERLVL[39m (28220 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652971106263] [37mUSERLVL[39m (7080 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652971266276] [37mUSERLVL[39m (28476 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652971282434] [37mUSERLVL[39m (28652 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652971311886] [37mUSERLVL[39m (21032 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652971687871] [37mUSERLVL[39m (18060 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652971734176] [37mUSERLVL[39m (18936 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652971793912] [37mUSERLVL[39m (28152 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652972063130] [37mUSERLVL[39m (4736 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1652972076268] [37mUSERLVL[39m (13880 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653217781036] [37mUSERLVL[39m (28288 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653217796925] [37mUSERLVL[39m (3852 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653217855199] [37mUSERLVL[39m (23084 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653218051032] [37mUSERLVL[39m (21720 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653218156678] [37mUSERLVL[39m (10160 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653218796513] [37mUSERLVL[39m (20348 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653249366402] [37mUSERLVL[39m (28792 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653249448573] [37mUSERLVL[39m (28988 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653249635411] [37mUSERLVL[39m (14736 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653251944209] [37mUSERLVL[39m (19792 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653251980685] [37mUSERLVL[39m (19880 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653252079834] [37mUSERLVL[39m (22168 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1653252114722] [37mUSERLVL[39m (18984 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654066579177] [37mUSERLVL[39m (15768 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654067550551] [37mUSERLVL[39m (10712 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654067627632] [37mUSERLVL[39m (7688 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654067672528] [37mUSERLVL[39m (4700 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654068396943] [31mERROR[39m (4700 on LAPTOP-QS2LTO8J): [36mpassport is not defined[39m
+    err: {
+      "type": "ReferenceError",
+      "message": "passport is not defined",
+      "stack":
+          ReferenceError: passport is not defined
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:5)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+    }
+[1654068486669] [37mUSERLVL[39m (21612 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654068495245] [37mUSERLVL[39m (20452 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654068503446] [31mERROR[39m (20452 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654069008101] [37mUSERLVL[39m (11880 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654069253197] [37mUSERLVL[39m (28896 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654069315809] [37mUSERLVL[39m (24332 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654069324432] [31mERROR[39m (24332 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654069600153] [31mERROR[39m (24332 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654069618269] [37mUSERLVL[39m (22940 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654069632465] [31mERROR[39m (22940 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654069680324] [37mUSERLVL[39m (28840 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654069682729] [31mERROR[39m (28840 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "bearer"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"bearer\"",
+      "stack":
+          Error: Unknown authentication strategy "bearer"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:56)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654069700472] [37mUSERLVL[39m (27832 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654069816168] [37mUSERLVL[39m (3840 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654069827398] [37mUSERLVL[39m (14608 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654069830120] [31mERROR[39m (14608 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654069956303] [37mUSERLVL[39m (23692 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654070023118] [37mUSERLVL[39m (27912 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654070080819] [31mERROR[39m (27912 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654070432857] [37mUSERLVL[39m (2236 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654070441889] [37mUSERLVL[39m (9404 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654070850463] [31mERROR[39m (9404 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654070994413] [37mUSERLVL[39m (12924 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654070998980] [31mERROR[39m (12924 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:15:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654071010350] [37mUSERLVL[39m (7248 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071314261] [37mUSERLVL[39m (26336 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071534848] [37mUSERLVL[39m (18752 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071755638] [37mUSERLVL[39m (7280 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071761380] [37mUSERLVL[39m (14300 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071829417] [37mUSERLVL[39m (26176 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071833995] [31mERROR[39m (26176 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\route.js:144:13)
+              at Route.dispatch (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\route.js:114:3)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:284:15
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+    }
+[1654071854094] [37mUSERLVL[39m (7424 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071873549] [37mUSERLVL[39m (11896 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071907704] [37mUSERLVL[39m (26260 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654071944961] [37mUSERLVL[39m (12716 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654073845987] [31mERROR[39m (12716 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654073999253] [37mUSERLVL[39m (19100 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654074011675] [37mUSERLVL[39m (26796 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654074015032] [31mERROR[39m (26796 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654074092275] [37mUSERLVL[39m (9944 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654074095671] [31mERROR[39m (9944 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654074685910] [37mUSERLVL[39m (13252 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654074732597] [37mUSERLVL[39m (4700 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654074753316] [31mERROR[39m (4700 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654074784998] [37mUSERLVL[39m (15144 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654075302571] [31mERROR[39m (15144 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654075723205] [37mUSERLVL[39m (18644 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654075782824] [31mERROR[39m (18644 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:13:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654075965104] [37mUSERLVL[39m (13180 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654076469013] [37mUSERLVL[39m (23208 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654077203392] [37mUSERLVL[39m (15220 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654077314431] [37mUSERLVL[39m (780 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654155646972] [37mUSERLVL[39m (12480 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161110129] [37mUSERLVL[39m (432 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161127186] [37mUSERLVL[39m (26292 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161283545] [37mUSERLVL[39m (1888 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161409165] [37mUSERLVL[39m (12216 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161566710] [37mUSERLVL[39m (16380 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161675055] [37mUSERLVL[39m (13500 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161844553] [37mUSERLVL[39m (1584 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161857695] [37mUSERLVL[39m (19228 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654161878094] [37mUSERLVL[39m (28608 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654162173599] [37mUSERLVL[39m (25292 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654162181415] [31mERROR[39m (25292 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:13:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654162335344] [37mUSERLVL[39m (6956 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654162341398] [31mERROR[39m (6956 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:13:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654167677235] [37mUSERLVL[39m (22764 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654167680616] [31mERROR[39m (22764 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:13:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654167702346] [37mUSERLVL[39m (14440 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168019918] [37mUSERLVL[39m (6628 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168047807] [37mUSERLVL[39m (10496 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168065761] [37mUSERLVL[39m (27224 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168119252] [37mUSERLVL[39m (25324 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168122218] [31mERROR[39m (25324 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654168161596] [37mUSERLVL[39m (28612 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168167078] [37mUSERLVL[39m (28572 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168169343] [31mERROR[39m (28572 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654168189203] [37mUSERLVL[39m (16712 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168198435] [37mUSERLVL[39m (13440 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168210047] [37mUSERLVL[39m (27824 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168210125] [31mERROR[39m (27824 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654168256904] [37mUSERLVL[39m (22068 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168265804] [31mERROR[39m (22068 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654168281484] [37mUSERLVL[39m (25260 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168283824] [31mERROR[39m (25260 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654168304630] [37mUSERLVL[39m (7540 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168316284] [37mUSERLVL[39m (19268 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654168318926] [31mERROR[39m (19268 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:64)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654168467316] [37mUSERLVL[39m (23432 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654170366222] [37mUSERLVL[39m (5324 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654170702287] [37mUSERLVL[39m (16972 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654170800701] [37mUSERLVL[39m (28192 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654170805174] [31mERROR[39m (28192 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654170905699] [37mUSERLVL[39m (27968 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654170909913] [31mERROR[39m (27968 on LAPTOP-QS2LTO8J): [36mUnknown authentication strategy "jwt"[39m
+    err: {
+      "type": "Error",
+      "message": "Unknown authentication strategy \"jwt\"",
+      "stack":
+          Error: Unknown authentication strategy "jwt"
+              at attempt (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:193:39)
+              at authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\node_modules\passport\lib\middleware\authenticate.js:370:7)
+              at exports.authenticate (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:14:53)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at Function.handle (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:175:3)
+              at router (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:47:12)
+    }
+[1654171186074] [37mUSERLVL[39m (2148 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654171312899] [37mUSERLVL[39m (16572 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654171418084] [37mUSERLVL[39m (18384 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654171430192] [37mUSERLVL[39m (29280 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654171651769] [37mUSERLVL[39m (8852 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172107391] [37mUSERLVL[39m (16636 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172211494] [37mUSERLVL[39m (26060 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172323903] [37mUSERLVL[39m (26656 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172369056] [37mUSERLVL[39m (9056 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172443135] [37mUSERLVL[39m (25964 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172449927] [37mUSERLVL[39m (14076 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172482436] [37mUSERLVL[39m (23940 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172741044] [37mUSERLVL[39m (14804 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172784485] [37mUSERLVL[39m (428 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172867709] [37mUSERLVL[39m (15524 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654172920504] [37mUSERLVL[39m (12824 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173051375] [37mUSERLVL[39m (19036 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173204406] [37mUSERLVL[39m (22616 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173235933] [37mUSERLVL[39m (25688 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173409725] [37mUSERLVL[39m (28640 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173523470] [37mUSERLVL[39m (19076 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173601752] [37mUSERLVL[39m (21404 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173668680] [37mUSERLVL[39m (9944 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173704826] [37mUSERLVL[39m (3720 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654173776548] [37mUSERLVL[39m (10080 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654174110933] [37mUSERLVL[39m (27332 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654174836989] [37mUSERLVL[39m (25908 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654174887989] [37mUSERLVL[39m (2596 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654175776644] [37mUSERLVL[39m (18916 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176046291] [37mUSERLVL[39m (10088 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176109872] [37mUSERLVL[39m (15648 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176177480] [37mUSERLVL[39m (21084 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176216528] [37mUSERLVL[39m (25284 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176236960] [37mUSERLVL[39m (2004 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176272638] [37mUSERLVL[39m (16644 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176322765] [37mUSERLVL[39m (14104 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176419499] [37mUSERLVL[39m (12116 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176505026] [37mUSERLVL[39m (19188 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176677718] [37mUSERLVL[39m (24764 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654176859186] [37mUSERLVL[39m (18296 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654540780377] [37mUSERLVL[39m (8824 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654541022298] [37mUSERLVL[39m (21324 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654541264538] [37mUSERLVL[39m (9204 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654541459069] [37mUSERLVL[39m (28124 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654541490160] [37mUSERLVL[39m (27396 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654541824243] [37mUSERLVL[39m (5108 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654541969454] [37mUSERLVL[39m (28588 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654542027369] [37mUSERLVL[39m (8880 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654542118920] [37mUSERLVL[39m (25460 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654542203206] [37mUSERLVL[39m (26000 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654542505532] [37mUSERLVL[39m (25124 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654542511852] [37mUSERLVL[39m (23488 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654542636415] [37mUSERLVL[39m (14204 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654542959203] [37mUSERLVL[39m (21080 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654543424739] [37mUSERLVL[39m (26760 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654543491540] [37mUSERLVL[39m (6964 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654689190885] [37mUSERLVL[39m (22376 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654693686636] [37mUSERLVL[39m (24688 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654693747527] [37mUSERLVL[39m (26852 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654693753258] [37mUSERLVL[39m (10200 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654693779478] [37mUSERLVL[39m (16256 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654694104236] [37mUSERLVL[39m (3852 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654698790373] [31mERROR[39m (3852 on LAPTOP-QS2LTO8J): [36mConverting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle[39m
+    err: {
+      "type": "TypeError",
+      "message": "Converting circular structure to JSON\n    --> starting at object with constructor 'Topology'\n    |     property 's' -> object with constructor 'Object'\n    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n    --- property 'topology' closes the circle",
+      "stack":
+          TypeError: Converting circular structure to JSON
+              --> starting at object with constructor 'Topology'
+              |     property 's' -> object with constructor 'Object'
+              |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+              --- property 'topology' closes the circle
+              at JSON.stringify (<anonymous>)
+              at stringify (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:1150:12)
+              at ServerResponse.json (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:271:14)
+              at exports.getChatOfMembers (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\chats\chats_controller.js:35:9)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\route.js:144:13)
+              at Route.dispatch (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\route.js:114:3)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:284:15
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+    }
+[1654698885826] [37mUSERLVL[39m (968 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654698897749] [31mERROR[39m (968 on LAPTOP-QS2LTO8J): [36mConverting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle[39m
+    err: {
+      "type": "TypeError",
+      "message": "Converting circular structure to JSON\n    --> starting at object with constructor 'Topology'\n    |     property 's' -> object with constructor 'Object'\n    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n    --- property 'topology' closes the circle",
+      "stack":
+          TypeError: Converting circular structure to JSON
+              --> starting at object with constructor 'Topology'
+              |     property 's' -> object with constructor 'Object'
+              |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+              --- property 'topology' closes the circle
+              at JSON.stringify (<anonymous>)
+              at stringify (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:1150:12)
+              at ServerResponse.json (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:271:14)
+              at exports.getChatOfMembers (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\chats\chats_controller.js:35:9)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\route.js:144:13)
+              at Route.dispatch (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\route.js:114:3)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:284:15
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+    }
+[1654698967594] [37mUSERLVL[39m (18020 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654698981122] [31mERROR[39m (18020 on LAPTOP-QS2LTO8J): [36mConverting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle[39m
+    err: {
+      "type": "TypeError",
+      "message": "Converting circular structure to JSON\n    --> starting at object with constructor 'Topology'\n    |     property 's' -> object with constructor 'Object'\n    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n    --- property 'topology' closes the circle",
+      "stack":
+          TypeError: Converting circular structure to JSON
+              --> starting at object with constructor 'Topology'
+              |     property 's' -> object with constructor 'Object'
+              |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+              --- property 'topology' closes the circle
+              at JSON.stringify (<anonymous>)
+              at stringify (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:1150:12)
+              at ServerResponse.json (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:271:14)
+              at exports.getChatOfMembers (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\chats\chats_controller.js:35:9)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\route.js:144:13)
+              at Route.dispatch (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\route.js:114:3)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:284:15
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+    }
+[1654699014607] [37mUSERLVL[39m (20504 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654699031663] [37mUSERLVL[39m (23232 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654699255674] [37mUSERLVL[39m (16348 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654699360002] [37mUSERLVL[39m (9200 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654699463937] [37mUSERLVL[39m (19472 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654699562187] [37mUSERLVL[39m (5756 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654700959473] [37mUSERLVL[39m (25344 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654701726545] [37mUSERLVL[39m (24636 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654701834872] [37mUSERLVL[39m (16396 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654750723054] [37mUSERLVL[39m (29632 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654750836348] [37mUSERLVL[39m (9212 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654750961070] [37mUSERLVL[39m (27052 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654751011230] [37mUSERLVL[39m (21276 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654751099166] [37mUSERLVL[39m (18488 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654751134508] [37mUSERLVL[39m (20608 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654751155129] [37mUSERLVL[39m (13084 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654751249807] [37mUSERLVL[39m (27012 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654753573524] [37mUSERLVL[39m (26256 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654753578440] [37mUSERLVL[39m (12944 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654753622700] [37mUSERLVL[39m (28296 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654753684924] [37mUSERLVL[39m (12200 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654753690335] [37mUSERLVL[39m (21192 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654753824229] [37mUSERLVL[39m (24364 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654754115862] [37mUSERLVL[39m (29384 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654754342556] [37mUSERLVL[39m (11952 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654754472575] [37mUSERLVL[39m (21700 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654755191257] [37mUSERLVL[39m (9640 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654755224522] [37mUSERLVL[39m (28304 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654755246372] [37mUSERLVL[39m (2688 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654755258527] [37mUSERLVL[39m (4736 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654755433944] [37mUSERLVL[39m (15892 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654755461330] [37mUSERLVL[39m (27436 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654755584142] [37mUSERLVL[39m (5916 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654755933707] [37mUSERLVL[39m (9316 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654756011462] [37mUSERLVL[39m (22028 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1654756023237] [37mUSERLVL[39m (6012 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660554150996] [37mUSERLVL[39m (8436 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660632481071] [37mUSERLVL[39m (31360 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660633095135] [37mUSERLVL[39m (34608 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660718664242] [37mUSERLVL[39m (32212 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660720846341] [37mUSERLVL[39m (37416 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660721006555] [37mUSERLVL[39m (37172 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660721079162] [37mUSERLVL[39m (18008 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660721186426] [37mUSERLVL[39m (22572 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660722194911] [37mUSERLVL[39m (33652 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660722223244] [37mUSERLVL[39m (30740 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660722267788] [37mUSERLVL[39m (28752 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660739626870] [37mUSERLVL[39m (30416 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660740409867] [37mUSERLVL[39m (33292 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660759599554] [37mUSERLVL[39m (32704 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660760107795] [31mERROR[39m (32704 on LAPTOP-QS2LTO8J): [36mPlease upload a image[39m
+    err: {
+      "type": "Error",
+      "message": "Please upload a image",
+      "stack":
+          Error: Please upload a image
+              at fileFilter (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\uploader\imageupload.js:20:19)
+              at wrappedFileFilter (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\multer\index.js:44:7)
+              at Multipart.<anonymous> (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\multer\lib\make-middleware.js:107:7)
+              at Multipart.emit (node:events:520:28)
+              at Multipart.emit (node:domain:475:12)
+              at HeaderParser.cb (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:358:14)
+              at HeaderParser.push (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:162:20)
+              at SBMH.ssCb [as _cb] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:394:37)
+              at feed (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\streamsearch\lib\sbmh.js:200:10)
+              at SBMH.push (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\streamsearch\lib\sbmh.js:104:16)
+      "storageErrors": []
+    }
+[1660760347990] [37mUSERLVL[39m (25016 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660760349851] [31mERROR[39m (25016 on LAPTOP-QS2LTO8J): [36mPlease upload a image[39m
+    err: {
+      "type": "Error",
+      "message": "Please upload a image",
+      "stack":
+          Error: Please upload a image
+              at fileFilter (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\uploader\imageupload.js:22:19)
+              at wrappedFileFilter (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\multer\index.js:44:7)
+              at Multipart.<anonymous> (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\multer\lib\make-middleware.js:107:7)
+              at Multipart.emit (node:events:520:28)
+              at Multipart.emit (node:domain:475:12)
+              at HeaderParser.cb (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:358:14)
+              at HeaderParser.push (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:162:20)
+              at SBMH.ssCb [as _cb] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:394:37)
+              at feed (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\streamsearch\lib\sbmh.js:248:10)
+              at SBMH.push (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\streamsearch\lib\sbmh.js:104:16)
+      "storageErrors": []
+    }
+[1660760425966] [37mUSERLVL[39m (37016 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660760436475] [31mERROR[39m (37016 on LAPTOP-QS2LTO8J): [36mPlease upload a image[39m
+    err: {
+      "type": "Error",
+      "message": "Please upload a image",
+      "stack":
+          Error: Please upload a image
+              at fileFilter (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\uploader\imageupload.js:22:19)
+              at wrappedFileFilter (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\multer\index.js:44:7)
+              at Multipart.<anonymous> (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\multer\lib\make-middleware.js:107:7)
+              at Multipart.emit (node:events:520:28)
+              at Multipart.emit (node:domain:475:12)
+              at HeaderParser.cb (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:358:14)
+              at HeaderParser.push (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:162:20)
+              at SBMH.ssCb [as _cb] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:394:37)
+              at feed (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\streamsearch\lib\sbmh.js:219:14)
+              at SBMH.push (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\streamsearch\lib\sbmh.js:104:16)
+      "storageErrors": []
+    }
+[1660760517246] [37mUSERLVL[39m (4348 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660760518333] [31mERROR[39m (4348 on LAPTOP-QS2LTO8J): [36mPlease upload a image[39m
+    err: {
+      "type": "Error",
+      "message": "Please upload a image",
+      "stack":
+          Error: Please upload a image
+              at fileFilter (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\uploader\imageupload.js:22:19)
+              at wrappedFileFilter (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\multer\index.js:44:7)
+              at Multipart.<anonymous> (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\multer\lib\make-middleware.js:107:7)
+              at Multipart.emit (node:events:520:28)
+              at Multipart.emit (node:domain:475:12)
+              at HeaderParser.cb (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:358:14)
+              at HeaderParser.push (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:162:20)
+              at SBMH.ssCb [as _cb] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\busboy\lib\types\multipart.js:394:37)
+              at feed (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\streamsearch\lib\sbmh.js:219:14)
+              at SBMH.push (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\streamsearch\lib\sbmh.js:104:16)
+      "storageErrors": []
+    }
+[1660760553821] [37mUSERLVL[39m (4260 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660760653805] [37mUSERLVL[39m (23536 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660760730655] [37mUSERLVL[39m (35760 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660760744718] [37mUSERLVL[39m (29948 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660761997085] [37mUSERLVL[39m (5584 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660824045132] [37mUSERLVL[39m (6728 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660920653103] [37mUSERLVL[39m (21744 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660920686399] [37mUSERLVL[39m (15416 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660921760059] [37mUSERLVL[39m (1880 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660922077848] [37mUSERLVL[39m (11560 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660922194230] [37mUSERLVL[39m (10856 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660990638218] [37mUSERLVL[39m (4488 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660990782150] [37mUSERLVL[39m (8408 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991092882] [37mUSERLVL[39m (18764 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991134416] [37mUSERLVL[39m (8460 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991173487] [37mUSERLVL[39m (24336 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991321610] [37mUSERLVL[39m (13376 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991590313] [37mUSERLVL[39m (24608 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991638430] [37mUSERLVL[39m (24168 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991649200] [37mUSERLVL[39m (3828 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991684149] [37mUSERLVL[39m (19064 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991721281] [37mUSERLVL[39m (24744 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660991972736] [37mUSERLVL[39m (21432 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1660992007055] [37mUSERLVL[39m (7100 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661005679920] [37mUSERLVL[39m (14724 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661005829505] [37mUSERLVL[39m (23516 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661006047594] [37mUSERLVL[39m (11540 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661006173217] [37mUSERLVL[39m (25304 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661006460906] [37mUSERLVL[39m (21284 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661006986209] [37mUSERLVL[39m (24280 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661007153256] [37mUSERLVL[39m (864 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661007308143] [37mUSERLVL[39m (10736 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661007400437] [37mUSERLVL[39m (908 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661007424093] [37mUSERLVL[39m (23024 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661007486835] [37mUSERLVL[39m (21152 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661007513337] [37mUSERLVL[39m (8188 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661007574924] [37mUSERLVL[39m (4200 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661008220535] [37mUSERLVL[39m (13148 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661008343138] [37mUSERLVL[39m (8460 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661008593224] [37mUSERLVL[39m (12344 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661008671568] [37mUSERLVL[39m (20764 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661008705790] [37mUSERLVL[39m (23532 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661008724695] [37mUSERLVL[39m (19280 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661008869899] [37mUSERLVL[39m (24188 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661008941161] [37mUSERLVL[39m (9536 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009300690] [37mUSERLVL[39m (4188 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009365521] [37mUSERLVL[39m (7688 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009430856] [37mUSERLVL[39m (19288 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009451238] [37mUSERLVL[39m (25332 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009543664] [37mUSERLVL[39m (19488 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009649084] [37mUSERLVL[39m (17860 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009710350] [37mUSERLVL[39m (23368 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009773662] [37mUSERLVL[39m (11916 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661009821756] [37mUSERLVL[39m (18256 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010014192] [37mUSERLVL[39m (19836 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010053372] [37mUSERLVL[39m (9976 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010409103] [37mUSERLVL[39m (708 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010499623] [37mUSERLVL[39m (9044 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010598025] [37mUSERLVL[39m (22664 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010651485] [37mUSERLVL[39m (9248 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010682097] [37mUSERLVL[39m (8332 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010738750] [37mUSERLVL[39m (25400 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010763941] [37mUSERLVL[39m (24768 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010922645] [37mUSERLVL[39m (25032 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010966226] [37mUSERLVL[39m (18336 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661010988907] [37mUSERLVL[39m (20804 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661011063922] [37mUSERLVL[39m (23704 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661011071154] [37mUSERLVL[39m (6024 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661011187417] [37mUSERLVL[39m (16844 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661013296318] [37mUSERLVL[39m (21928 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661013478879] [37mUSERLVL[39m (19760 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661066840683] [37mUSERLVL[39m (25024 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661067796598] [37mUSERLVL[39m (21088 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661067864730] [37mUSERLVL[39m (25260 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661098384681] [37mUSERLVL[39m (692 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661100743100] [37mUSERLVL[39m (7516 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661102770866] [37mUSERLVL[39m (6044 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661102831621] [37mUSERLVL[39m (20688 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661102919428] [37mUSERLVL[39m (26668 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661103036416] [37mUSERLVL[39m (22560 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661103164723] [37mUSERLVL[39m (10020 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661103199426] [37mUSERLVL[39m (14564 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661103471176] [37mUSERLVL[39m (14316 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661110847878] [37mUSERLVL[39m (15464 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661111163468] [37mUSERLVL[39m (3244 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661113607786] [37mUSERLVL[39m (23696 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661113694684] [37mUSERLVL[39m (10776 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661169709589] [37mUSERLVL[39m (25512 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661169915906] [37mUSERLVL[39m (18652 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170138898] [37mUSERLVL[39m (10224 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170195024] [37mUSERLVL[39m (25180 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170212107] [37mUSERLVL[39m (24564 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170247744] [37mUSERLVL[39m (5740 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170261793] [37mUSERLVL[39m (18276 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170301322] [37mUSERLVL[39m (10768 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170461059] [37mUSERLVL[39m (25156 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170618005] [37mUSERLVL[39m (3732 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170753279] [37mUSERLVL[39m (23156 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661170890732] [37mUSERLVL[39m (14280 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661171040385] [37mUSERLVL[39m (14388 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661171978218] [37mUSERLVL[39m (16448 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174295441] [37mUSERLVL[39m (19420 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174400291] [37mUSERLVL[39m (20412 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174434262] [37mUSERLVL[39m (12372 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174849678] [37mUSERLVL[39m (25960 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174886010] [37mUSERLVL[39m (11652 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174895221] [37mUSERLVL[39m (904 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174910890] [37mUSERLVL[39m (23316 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174948653] [37mUSERLVL[39m (18772 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661174981942] [37mUSERLVL[39m (26968 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661175024890] [37mUSERLVL[39m (10236 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661176383186] [37mUSERLVL[39m (12980 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661177173123] [37mUSERLVL[39m (17996 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661177879120] [37mUSERLVL[39m (10880 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661177974668] [37mUSERLVL[39m (24860 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661178114512] [37mUSERLVL[39m (18428 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661178168555] [37mUSERLVL[39m (1996 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661194098035] [37mUSERLVL[39m (27680 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661194436525] [37mUSERLVL[39m (28880 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661194517740] [37mUSERLVL[39m (22584 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661194817697] [37mUSERLVL[39m (21420 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661194845138] [37mUSERLVL[39m (25988 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661195107042] [37mUSERLVL[39m (26364 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661195477482] [37mUSERLVL[39m (29040 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661195783575] [37mUSERLVL[39m (26796 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661196179140] [37mUSERLVL[39m (924 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661196312448] [37mUSERLVL[39m (23952 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661196613855] [37mUSERLVL[39m (4168 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661197485221] [37mUSERLVL[39m (13736 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661197579367] [37mUSERLVL[39m (21200 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661197632972] [37mUSERLVL[39m (13356 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661197670881] [37mUSERLVL[39m (26560 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661197687292] [37mUSERLVL[39m (24132 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661198099443] [37mUSERLVL[39m (27340 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661198115226] [37mUSERLVL[39m (17336 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661198175981] [37mUSERLVL[39m (19384 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661198230433] [37mUSERLVL[39m (15876 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661198329563] [37mUSERLVL[39m (15948 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661198590552] [37mUSERLVL[39m (25776 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661199219861] [37mUSERLVL[39m (3000 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661200401389] [37mUSERLVL[39m (28360 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661200936370] [37mUSERLVL[39m (25116 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661200952261] [37mUSERLVL[39m (28200 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661201174281] [37mUSERLVL[39m (23972 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661201224629] [37mUSERLVL[39m (26320 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661416459858] [37mUSERLVL[39m (13456 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661416481527] [37mUSERLVL[39m (14232 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661416564588] [37mUSERLVL[39m (22116 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661417126571] [37mUSERLVL[39m (22472 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661417225271] [37mUSERLVL[39m (19132 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661417247975] [37mUSERLVL[39m (2756 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661417269127] [37mUSERLVL[39m (2712 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661417438609] [37mUSERLVL[39m (19920 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661417477255] [37mUSERLVL[39m (22220 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661417679395] [37mUSERLVL[39m (8260 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661417799564] [37mUSERLVL[39m (11436 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418007879] [37mUSERLVL[39m (23184 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418032798] [37mUSERLVL[39m (24116 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418103619] [37mUSERLVL[39m (22796 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418236738] [37mUSERLVL[39m (23036 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418287707] [37mUSERLVL[39m (10420 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418426713] [37mUSERLVL[39m (24312 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418539889] [37mUSERLVL[39m (2856 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418847675] [37mUSERLVL[39m (7388 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418885092] [37mUSERLVL[39m (16816 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661418933953] [37mUSERLVL[39m (19560 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661419083545] [37mUSERLVL[39m (6084 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661419114628] [37mUSERLVL[39m (20796 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661419285793] [37mUSERLVL[39m (3160 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661419376712] [37mUSERLVL[39m (24508 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661419721142] [37mUSERLVL[39m (6448 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661424791956] [37mUSERLVL[39m (8548 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661424834505] [37mUSERLVL[39m (3584 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661425555194] [37mUSERLVL[39m (12252 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661428966124] [37mUSERLVL[39m (20776 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661430123553] [37mUSERLVL[39m (8404 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661430131962] [37mUSERLVL[39m (9356 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661430441563] [37mUSERLVL[39m (1564 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661430605837] [37mUSERLVL[39m (23828 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661430637544] [37mUSERLVL[39m (20416 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661431866645] [37mUSERLVL[39m (12424 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661431916910] [37mUSERLVL[39m (20456 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661432033114] [37mUSERLVL[39m (21312 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661432106313] [37mUSERLVL[39m (21324 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661432568926] [37mUSERLVL[39m (12084 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661432791531] [37mUSERLVL[39m (1744 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661432919805] [37mUSERLVL[39m (19000 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661432974875] [37mUSERLVL[39m (12236 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661433286615] [37mUSERLVL[39m (10600 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661538435284] [37mUSERLVL[39m (27236 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661541794479] [37mUSERLVL[39m (28620 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661706432200] [37mUSERLVL[39m (31572 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661714416622] [37mUSERLVL[39m (24952 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661714447875] [37mUSERLVL[39m (23928 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661714796800] [37mUSERLVL[39m (25460 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661715118922] [37mUSERLVL[39m (28000 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661715481345] [37mUSERLVL[39m (19392 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661715507783] [37mUSERLVL[39m (9688 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661715641930] [37mUSERLVL[39m (29920 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661716648536] [37mUSERLVL[39m (6176 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661716856538] [37mUSERLVL[39m (24164 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661782249399] [37mUSERLVL[39m (20448 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661852625507] [37mUSERLVL[39m (22696 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1661852710655] [37mUSERLVL[39m (23616 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1663134389981] [37mUSERLVL[39m (15672 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1663134413002] [37mUSERLVL[39m (18368 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1663134631668] [37mUSERLVL[39m (21596 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1663134664848] [37mUSERLVL[39m (37628 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1663134667770] [31mERROR[39m (37628 on LAPTOP-QS2LTO8J): [36mpath must be absolute or specify root to res.sendFile[39m
+    err: {
+      "type": "TypeError",
+      "message": "path must be absolute or specify root to res.sendFile",
+      "stack":
+          TypeError: path must be absolute or specify root to res.sendFile
+              at ServerResponse.sendFile (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:441:11)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\index.js:30:50
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at jsonParser (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\body-parser\lib\types\json.js:110:7)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+    }
+[1663134681185] [31mERROR[39m (37628 on LAPTOP-QS2LTO8J): [36mpath must be absolute or specify root to res.sendFile[39m
+    err: {
+      "type": "TypeError",
+      "message": "path must be absolute or specify root to res.sendFile",
+      "stack":
+          TypeError: path must be absolute or specify root to res.sendFile
+              at ServerResponse.sendFile (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:441:11)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\index.js:30:50
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at jsonParser (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\body-parser\lib\types\json.js:110:7)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+    }
+[1663134737734] [37mUSERLVL[39m (26828 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1663134737823] [31mERROR[39m (26828 on LAPTOP-QS2LTO8J): [36mpath argument is required to res.sendFile[39m
+    err: {
+      "type": "TypeError",
+      "message": "path argument is required to res.sendFile",
+      "stack":
+          TypeError: path argument is required to res.sendFile
+              at ServerResponse.sendFile (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\response.js:427:11)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\index.js:30:50
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at jsonParser (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\body-parser\lib\types\json.js:110:7)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+    }
+[1663134861056] [37mUSERLVL[39m (34016 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1663134868391] [31mERROR[39m (34016 on LAPTOP-QS2LTO8J): [36mENOENT: no such file or directory, stat 'C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\home.html'[39m
+    err: {
+      "type": "Error",
+      "message": "ENOENT: no such file or directory, stat 'C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\home.html'",
+      "stack":
+          Error: ENOENT: no such file or directory, stat 'C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\home.html'
+      "errno": -4058,
+      "code": "ENOENT",
+      "syscall": "stat",
+      "path": "C:\\Users\\hala0\\OneDrive\\Desktop\\Workstation\\chatting\\home.html",
+      "expose": false,
+      "statusCode": 404,
+      "status": 404
+    }
+[1663134919623] [37mUSERLVL[39m (28180 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000[39m
+[1663137442113] [37mUSERLVL[39m (12140 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663137743288] [37mUSERLVL[39m (30372 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663137867646] [37mUSERLVL[39m (15220 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663142025727] [37mUSERLVL[39m (19264 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663142051668] [37mUSERLVL[39m (14104 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663142088260] [37mUSERLVL[39m (16768 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663142689043] [37mUSERLVL[39m (12876 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663142696736] [37mUSERLVL[39m (23368 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663142766437] [37mUSERLVL[39m (18272 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663142777105] [37mUSERLVL[39m (9908 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663142895816] [37mUSERLVL[39m (15652 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663147339590] [37mUSERLVL[39m (22452 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663147387810] [31mERROR[39m (22452 on LAPTOP-QS2LTO8J): [36muser is not defined[39m
+    err: {
+      "type": "ReferenceError",
+      "message": "user is not defined",
+      "stack":
+          ReferenceError: user is not defined
+              at exports.isAuthenticated (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\src\auth\Auth_By_JWT\auth_controller.js:26:25)
+              at Layer.handle [as handle_request] (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\layer.js:95:5)
+              at trim_prefix (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:328:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:286:9
+              at Function.process_params (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:346:12)
+              at next (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\express\lib\router\index.js:280:10)
+              at complete (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\passport\lib\middleware\authenticate.js:271:13)
+              at C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\passport\lib\middleware\authenticate.js:278:15
+              at pass (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\passport\lib\authenticator.js:428:14)
+              at Authenticator.transformAuthInfo (C:\Users\hala0\OneDrive\Desktop\Workstation\chatting\node_modules\passport\lib\authenticator.js:450:5)
+    }
+[1663147430852] [37mUSERLVL[39m (10828 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663147448243] [37mUSERLVL[39m (5204 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663147676449] [37mUSERLVL[39m (21488 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663147753343] [37mUSERLVL[39m (30608 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663147786659] [37mUSERLVL[39m (37100 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663147842990] [37mUSERLVL[39m (37152 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663148019665] [37mUSERLVL[39m (21628 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663148299843] [37mUSERLVL[39m (21844 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663148335999] [37mUSERLVL[39m (17680 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663149763600] [37mUSERLVL[39m (29936 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663149898479] [37mUSERLVL[39m (22604 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663149921034] [37mUSERLVL[39m (11692 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m
+[1663480598441] [37mUSERLVL[39m (28032 on LAPTOP-QS2LTO8J): [36mThe server is listening at port 3000 [39m

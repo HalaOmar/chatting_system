@@ -1,7 +1,6 @@
-#create message API 
-#create Conversation API with the post request it will create conversation with an array of members = new Conversation(members),the conversation schema has the _
-id and members attributes
+chatting System built on :
 
+<<<<<<< HEAD
 
 ############################ pino-logger ########################################
 
@@ -20,3 +19,9 @@ Socketio comes with everything needed to setup a Websocket server using Node.
 setting up module by : npm i socket.io
 
 events provided by Socketio allows you to transfer data from client to server and vise verse
+=======
+Nodejs server [express framework]
+MongoDB Database Manegement System 
+Redis 
+iosocket 
+>>>>>>> b34d0a8751978db2e1c998a404e0595088c58bf1

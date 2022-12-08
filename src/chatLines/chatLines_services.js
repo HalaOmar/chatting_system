@@ -13,9 +13,13 @@ exports.addChatLine = (chat_line) => {
 }
 
 
-exports.deleteChatLine = (cl_id ) =>{
+exports.deleteChatLine = (cl ) =>{
 
-    return chat_line_dao.deleteChatLine(cl_id)
+    return chat_line_dao.deleteChatLine( {
+        chat_id   : cl.chat_id ,
+        _id       : cl.chatline_id 
+
+    })
 
 }
 

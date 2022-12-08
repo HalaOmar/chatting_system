@@ -9,11 +9,10 @@ const videoUploader   = require('../../uploader/videoupload')
 router.use(auth_controller.authenticate , auth_controller.isAuthenticated)
 
 router.route('/')
-.post( chat_line_controller.addChatLines )
-.delete( chat_line_controller.deleteChatLines )
-
-router.route('/:chatid')
+.post( chat_line_controller.addChatLines)
+.delete( chat_line_controller.deleteChatLines)
 .get(chat_line_controller.getUserChatLines)
+
 
 router.route('/messageDelivered')
 .put(chat_line_controller.messageDeliverd)

@@ -6,10 +6,8 @@ exports.addChatLine = ( chat_line ) =>{
  return cl.save()
 }
 
-exports.deleteChatLine = ( cl_id ) =>{
- return Chat_Line.deleteOne({
-    _id : cl_id
- })
+exports.deleteChatLine = ( cl) =>{
+ return Chat_Line.deleteOne( cl )
 }
 
 exports.getAllChatLines = ( chat_id ) =>{

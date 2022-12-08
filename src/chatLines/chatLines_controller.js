@@ -2,11 +2,16 @@
 const chatLine_services = require('./chatLines_services')
 const s3Uploader = require('../../AWS/s3');
 
-exports.getUserChatLines = async ( req , res ) =>{
-   
+exports.getUserChatLines = async ( req , res ) => {
+
+    // Express allows you to use either one. For restful parameters that are in the path of the URL
+    // , you use the :id syntax and you access the value in req.params.id
+    // For query parameters, you don't define them in the express route path. Instead,
+    // Express parses any query parameters that exist on any route and makes them available in req.query.
+    
     try{
-        console.log("req.params.chatid" , req.params.chatid)
-    let chat_id = req.params.chatid || null 
+
+    let chat_id = req.query.chatid || null 
 
     let chat_lines = await chatLine_services.getAllChatLinesByChatId(chat_id)
     
@@ -45,19 +50,22 @@ exports.addChatLines = async ( req , res ) =>{
 
 }
 
-exports.deleteChatLines = ( req , res ) =>{
-
+exports.deleteChatLines = async  ( req , res ) =>{
+        
     let chat_line = {
-        user_id : req.body.user_id || null  ,
+        user_id : req.user._id || null  ,
         chat_id : req.body.chat_id || null  ,
         chatline_id : req.body.chatline_id || null
     }
 
     try{
 
-    }catch(err){
+        let delOp = await chatLine_services.deleteChatLine(chat_line)
+        res.json(delOp)
         
-    }
+    }catch(err){
+        res.json(err)
+           }
 
 }
 
